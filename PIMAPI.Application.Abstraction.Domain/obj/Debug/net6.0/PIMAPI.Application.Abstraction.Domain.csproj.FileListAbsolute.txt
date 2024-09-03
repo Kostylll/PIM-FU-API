@@ -1,0 +1,14 @@
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\bin\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.deps.json
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\bin\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.runtimeconfig.json
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\bin\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.dll
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\bin\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.pdb
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\obj\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.csproj.AssemblyReference.cache
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\obj\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\obj\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.AssemblyInfoInputs.cache
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\obj\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.AssemblyInfo.cs
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\obj\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\obj\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.dll
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\obj\Debug\net6.0\refint\PIMAPI.Application.Abstraction.Domain.dll
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\obj\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.pdb
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\obj\Debug\net6.0\PIMAPI.Application.Abstraction.Domain.genruntimeconfig.cache
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\obj\Debug\net6.0\ref\PIMAPI.Application.Abstraction.Domain.dll
