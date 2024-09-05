@@ -13,6 +13,8 @@ namespace PIMAPI.Application.Interfaces
 
         Task<List<ColaboratorRequest>> GetColaborator();
 
+        Task<ColaboratorRequest> GetColaboratorById(string id);
+
         Task<int> DeleteColaborator(string id);
     }
 }

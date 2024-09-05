@@ -27,6 +27,14 @@ namespace PIMAPI.Controllers
             return Ok(result);
         }
 
+        [HttpGet("{Id}")]
+
+        public async Task<IActionResult> GetColaboratorById(string id)
+        {
+            var result = await _colaboratorService.GetColaboratorById(id);
+            return Ok(result);
+        }
+
 
         [HttpPost]
 
