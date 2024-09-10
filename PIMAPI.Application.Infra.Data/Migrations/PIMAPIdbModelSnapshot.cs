@@ -33,10 +33,20 @@ namespace PIMAPI.Application.Infra.Data.Migrations
                         .HasMaxLength(110)
                         .HasColumnType("nvarchar(110)");
 
+                    b.Property<string>("Data_Nascimento")
+                        .IsRequired()
+                        .HasMaxLength(90)
+                        .HasColumnType("nvarchar(90)");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Endereço")
+                        .IsRequired()
+                        .HasMaxLength(90)
+                        .HasColumnType("nvarchar(90)");
 
                     b.Property<string>("Nome")
                         .IsRequired()

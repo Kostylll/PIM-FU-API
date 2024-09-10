@@ -14,5 +14,7 @@ namespace PIMAPI.Application.Abstraction.Domain.Request
         public string Email { get; set; }
         public string CPF { get; set; }
         public string Senha { get; set; }
+        public string Endereco { get; set; }
+        public string Data_Nascimento { get; set; }
     }
 }

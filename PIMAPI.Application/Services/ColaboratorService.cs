@@ -3,6 +3,7 @@ using PIMAPI.Application.Abstraction.Domain.Request;
 using PIMAPI.Application.Infra.Data.DBContext;
 using PIMAPI.Application.Infra.Data.Repository;
 using PIMAPI.Application.Interfaces;
+using PIMAPI.Application.Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +33,8 @@ namespace PIMAPI.Application.Services
                 CPF = request.CPF,
                 Telefone = request.Telefone,
                 Senha = request.CPF,
+                Data_Nascimento = FormatDate.FormatDateUtility(request.Data_Nascimento),
+                Endereço = request.Endereco
 
             };
 
@@ -53,8 +56,9 @@ namespace PIMAPI.Application.Services
                 Email = colaborator.Email,
                 Telefone = colaborator.Telefone,
                 CPF = colaborator.CPF,
-               
-               
+                Data_Nascimento = colaborator.Data_Nascimento,
+                Endereco = colaborator.Endereço
+
             }).ToList();
         }
 
@@ -77,7 +81,9 @@ namespace PIMAPI.Application.Services
                    Nome = colaborator.Nome,
                    Email = colaborator.Email,
                    Telefone = colaborator.Telefone,
-                   CPF = colaborator.CPF
+                   CPF = colaborator.CPF,
+                   Data_Nascimento = colaborator.Data_Nascimento,
+                   Endereco = colaborator.Endereço,
 
 
                 };

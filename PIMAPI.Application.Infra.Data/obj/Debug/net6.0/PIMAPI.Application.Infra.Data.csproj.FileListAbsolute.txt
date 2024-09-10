@@ -9,9 +9,10 @@ C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net6.0\PIMAPI.Application.Infra.Data.AssemblyInfoInputs.cache
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net6.0\PIMAPI.Application.Infra.Data.AssemblyInfo.cs
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net6.0\PIMAPI.Application.Infra.Data.csproj.CoreCompileInputs.cache
-C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net6.0\PIMAPI.Application.Infra.Data.csproj.CopyComplete
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net6.0\PIMAPI.Application.Infra.Data.dll
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net6.0\refint\PIMAPI.Application.Infra.Data.dll
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net6.0\PIMAPI.Application.Infra.Data.pdb
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net6.0\PIMAPI.Application.Infra.Data.genruntimeconfig.cache
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net6.0\ref\PIMAPI.Application.Infra.Data.dll
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net6.0\PIMAPI.Application.Infra.Data.sourcelink.json
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Infra.Data\obj\Debug\net6.0\PIMAPI.A.682B8FFD.Up2Date

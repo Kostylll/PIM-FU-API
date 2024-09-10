@@ -85,9 +85,10 @@ C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\staticwebassets.pac
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\scopedcss\bundle\PIMAPI.styles.css
-C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\PIMAPI.csproj.CopyComplete
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\PIMAPI.dll
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\refint\PIMAPI.dll
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\PIMAPI.pdb
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\PIMAPI.genruntimeconfig.cache
 C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\ref\PIMAPI.dll
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\PIMAPI.sourcelink.json
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI\obj\Debug\net6.0\PIMAPI.csproj.Up2Date

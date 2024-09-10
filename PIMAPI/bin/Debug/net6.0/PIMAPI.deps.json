@@ -698,7 +698,10 @@
           "PIMAPI.Application.Infra.Data": "1.0.0"
         },
         "runtime": {
-          "PIMAPI.Application.dll": {}
+          "PIMAPI.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PIMAPI.Application.Abstraction.Domain/1.0.0": {
@@ -707,7 +710,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12"
         },
         "runtime": {
-          "PIMAPI.Application.Abstraction.Domain.dll": {}
+          "PIMAPI.Application.Abstraction.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PIMAPI.Application.Infra.Data/1.0.0": {
@@ -717,7 +723,10 @@
           "PIMAPI.Application.Abstraction.Domain": "1.0.0"
         },
         "runtime": {
-          "PIMAPI.Application.Infra.Data.dll": {}
+          "PIMAPI.Application.Infra.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

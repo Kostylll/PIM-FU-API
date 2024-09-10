@@ -22,6 +22,8 @@ namespace PIMAPI.Application.Infra.Data.Configurations
                 .IsRequired();
 
             builder.Property(x => x.Nome).HasMaxLength(90).IsRequired();
+            builder.Property(x => x.Data_Nascimento).HasMaxLength(90).IsRequired();
+            builder.Property(x => x.Endereço).HasMaxLength(90).IsRequired();
             builder.Property(x => x.Senha).HasMaxLength(90).IsRequired();
             builder.Property(x => x.Nome).HasMaxLength(90).IsRequired();
             builder.Property(x => x.Telefone).HasMaxLength(13).IsRequired();

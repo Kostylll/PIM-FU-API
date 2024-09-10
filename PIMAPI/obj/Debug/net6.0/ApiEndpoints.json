@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "PIMAPI.Controllers.ColaboratorController",
+    "Method": "GetColaborator",
+    "RelativePath": "api/Colaborator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.ColaboratorController",
+    "Method": "RegisterColaborator",
+    "RelativePath": "api/Colaborator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PIMAPI.Application.Abstraction.Domain.Request.ColaboratorRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.ColaboratorController",
+    "Method": "DeleteColaborator",
+    "RelativePath": "api/Colaborator",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.ColaboratorController",
+    "Method": "GetColaboratorById",
+    "RelativePath": "api/Colaborator/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.LoginController",
+    "Method": "Authentication",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginResponse",
+        "Type": "PIMAPI.Application.Abstraction.Domain.Response.LoginResponse",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
