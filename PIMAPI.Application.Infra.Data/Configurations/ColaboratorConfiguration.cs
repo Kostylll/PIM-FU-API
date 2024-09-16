@@ -30,7 +30,6 @@ namespace PIMAPI.Application.Infra.Data.Configurations
             builder.Property(x => x.Email).HasMaxLength(50).IsRequired();
             builder.Property(x => x.CPF).HasMaxLength(110).IsRequired();
 
-
         }
     }
 }

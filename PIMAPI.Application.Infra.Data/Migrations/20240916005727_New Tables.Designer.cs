@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PIMAPI.Application.Infra.Data.DBContext;
 
@@ -10,9 +11,11 @@ using PIMAPI.Application.Infra.Data.DBContext;
 namespace PIMAPI.Application.Infra.Data.Migrations
 {
     [DbContext(typeof(PIMAPIdb))]
-    partial class PIMAPIdbModelSnapshot : ModelSnapshot
+    [Migration("20240916005727_New Tables")]
+    partial class NewTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

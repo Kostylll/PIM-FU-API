@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace PIMAPI.Application.Abstraction.Domain.Request
 {
-    internal class ProductionRequest
+    public class ProductionRequest
     {
+        public string Id { get; set; }
+        public string Nome_Produto { get; set; }
+        public float Quantidade { get; set; }
+        public string Nome_Empresa { get; set; }
     }
 }

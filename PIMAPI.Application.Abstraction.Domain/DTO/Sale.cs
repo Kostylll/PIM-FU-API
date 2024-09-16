@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace PIMAPI.Application.Abstraction.Domain.DTO
 {
-    internal class Sale
+    public class Sale : Entity
     {
+        public string Nome_Empresa { get; set; }
+        public string Produto_Vendido { get; set; }
+        public float Quantidade_Vendida {  get; set; }
+        public string Local_Vendido { get; set; }
+        
     }
 }
