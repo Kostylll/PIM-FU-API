@@ -72,5 +72,83 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.ProductController",
+    "Method": "GetProucts",
+    "RelativePath": "api/Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.ProductController",
+    "Method": "RegisterProduct",
+    "RelativePath": "api/Products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PIMAPI.Application.Abstraction.Domain.Request.ProductionRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.SalesController",
+    "Method": "GetSales",
+    "RelativePath": "api/Sales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.SalesController",
+    "Method": "RegisterSale",
+    "RelativePath": "api/Sales",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PIMAPI.Application.Abstraction.Domain.Request.SaleRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.SupplyController",
+    "Method": "GetSupply",
+    "RelativePath": "api/Supply",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.SupplyController",
+    "Method": "RegisterSupply",
+    "RelativePath": "api/Supply",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PIMAPI.Application.Abstraction.Domain.Request.SupplyRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
