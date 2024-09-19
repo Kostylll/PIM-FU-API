@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace PIMAPI.Application.Infra.Data.Repository
 {
-    public class LoginRepository : Repository<Colaborator>, ILoginRepository
+    public class LoginRepository : Repository<Colaboradores>, ILoginRepository
     {
         public LoginRepository(PIMAPIdb context) : base(context)
         {

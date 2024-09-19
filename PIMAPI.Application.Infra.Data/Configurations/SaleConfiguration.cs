@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace PIMAPI.Application.Infra.Data.Configurations
 {
-    public class SaleConfiguration : IEntityTypeConfiguration<Sale>
+    public class SaleConfiguration : IEntityTypeConfiguration<Vendas>
     {
-        public void Configure(EntityTypeBuilder<Sale> builder)
+        public void Configure(EntityTypeBuilder<Vendas> builder)
         {
-            builder.ToTable(name : nameof(Sale));
+            builder.ToTable(name : nameof(Vendas));
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.Id)

@@ -8,7 +8,10 @@ namespace PIMAPI.Application.Infra.Data.DBContext
     {
         public static string schema => "PIMAPIdb";
 
-        public DbSet<Colaborator> Colaborator { get; set; }
+        public DbSet<Colaboradores> Colaboradores { get; set; }
+        public DbSet<Vendas> Vendas { get; set; }
+        public DbSet <Fornecedores> Fornecedores { get; set; }
+        public DbSet<Produtos> Produtos { get; set; }
 
         public PIMAPIdb(DbContextOptions<PIMAPIdb> options) : base(options) 
         {
@@ -18,7 +21,7 @@ namespace PIMAPI.Application.Infra.Data.DBContext
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
-            modelBuilder.Entity<Colaborator>().Property(x => x.Id).HasDefaultValue("NEWID()");
+            modelBuilder.Entity<Colaboradores>().Property(x => x.Id).HasDefaultValue("NEWID()");
 
 
 

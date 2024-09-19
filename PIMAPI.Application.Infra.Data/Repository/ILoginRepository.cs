@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PIMAPI.Application.Infra.Data.Repository
 {
-    public interface ILoginRepository : IRepository<Colaborator>
+    public interface ILoginRepository : IRepository<Colaboradores>
     {
     }
 }

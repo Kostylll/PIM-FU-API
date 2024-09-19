@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace PIMAPI.Application.Infra.Data.Configurations
 {
-    public class ColaboratorConfiguration : IEntityTypeConfiguration<Colaborator>
+    public class ColaboratorConfiguration : IEntityTypeConfiguration<Colaboradores>
     {
-        public void Configure(EntityTypeBuilder<Colaborator> builder)
+        public void Configure(EntityTypeBuilder<Colaboradores> builder)
         {
-            builder.ToTable(name: nameof(Colaborator));
+            builder.ToTable(name: nameof(Colaboradores));
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.Id)

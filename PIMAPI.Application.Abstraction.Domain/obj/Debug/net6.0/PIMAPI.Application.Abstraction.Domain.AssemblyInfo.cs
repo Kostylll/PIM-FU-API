@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PIMAPI.Application.Abstraction.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfe38d3c69a843039fe21fa8a206690a0ee27727")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f549f661bda49396cd6b6ebeae083b1467424c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PIMAPI.Application.Abstraction.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PIMAPI.Application.Abstraction.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

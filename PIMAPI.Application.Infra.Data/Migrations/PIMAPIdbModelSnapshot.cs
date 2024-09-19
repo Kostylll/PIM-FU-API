@@ -21,7 +21,7 @@ namespace PIMAPI.Application.Infra.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("PIMAPI.Application.Abstraction.Domain.DTO.Colaborator", b =>
+            modelBuilder.Entity("PIMAPI.Application.Abstraction.Domain.DTO.Colaboradores", b =>
                 {
                     b.Property<string>("Id")
                         .HasMaxLength(36)
@@ -65,65 +65,10 @@ namespace PIMAPI.Application.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Colaborator", (string)null);
+                    b.ToTable("Colaboradores", (string)null);
                 });
 
-            modelBuilder.Entity("PIMAPI.Application.Abstraction.Domain.DTO.Production", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasMaxLength(36)
-                        .HasColumnType("nvarchar(36)");
-
-                    b.Property<string>("Nome_Empresa")
-                        .IsRequired()
-                        .HasMaxLength(90)
-                        .HasColumnType("nvarchar(90)");
-
-                    b.Property<string>("Nome_Produto")
-                        .IsRequired()
-                        .HasMaxLength(90)
-                        .HasColumnType("nvarchar(90)");
-
-                    b.Property<float>("Quantidade")
-                        .HasMaxLength(90)
-                        .HasColumnType("real");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Production", (string)null);
-                });
-
-            modelBuilder.Entity("PIMAPI.Application.Abstraction.Domain.DTO.Sale", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasMaxLength(36)
-                        .HasColumnType("nvarchar(36)");
-
-                    b.Property<string>("Local_Vendido")
-                        .IsRequired()
-                        .HasMaxLength(90)
-                        .HasColumnType("nvarchar(90)");
-
-                    b.Property<string>("Nome_Empresa")
-                        .IsRequired()
-                        .HasMaxLength(90)
-                        .HasColumnType("nvarchar(90)");
-
-                    b.Property<string>("Produto_Vendido")
-                        .IsRequired()
-                        .HasMaxLength(90)
-                        .HasColumnType("nvarchar(90)");
-
-                    b.Property<float>("Quantidade_Vendida")
-                        .HasMaxLength(90)
-                        .HasColumnType("real");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Sale", (string)null);
-                });
-
-            modelBuilder.Entity("PIMAPI.Application.Abstraction.Domain.DTO.Supply", b =>
+            modelBuilder.Entity("PIMAPI.Application.Abstraction.Domain.DTO.Fornecedores", b =>
                 {
                     b.Property<string>("Id")
                         .HasMaxLength(36)
@@ -151,7 +96,62 @@ namespace PIMAPI.Application.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Supply", (string)null);
+                    b.ToTable("Fornecedores", (string)null);
+                });
+
+            modelBuilder.Entity("PIMAPI.Application.Abstraction.Domain.DTO.Produtos", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(36)
+                        .HasColumnType("nvarchar(36)");
+
+                    b.Property<string>("Nome_Empresa")
+                        .IsRequired()
+                        .HasMaxLength(90)
+                        .HasColumnType("nvarchar(90)");
+
+                    b.Property<string>("Nome_Produto")
+                        .IsRequired()
+                        .HasMaxLength(90)
+                        .HasColumnType("nvarchar(90)");
+
+                    b.Property<float>("Quantidade")
+                        .HasMaxLength(90)
+                        .HasColumnType("real");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Produtos", (string)null);
+                });
+
+            modelBuilder.Entity("PIMAPI.Application.Abstraction.Domain.DTO.Vendas", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(36)
+                        .HasColumnType("nvarchar(36)");
+
+                    b.Property<string>("Local_Vendido")
+                        .IsRequired()
+                        .HasMaxLength(90)
+                        .HasColumnType("nvarchar(90)");
+
+                    b.Property<string>("Nome_Empresa")
+                        .IsRequired()
+                        .HasMaxLength(90)
+                        .HasColumnType("nvarchar(90)");
+
+                    b.Property<string>("Produto_Vendido")
+                        .IsRequired()
+                        .HasMaxLength(90)
+                        .HasColumnType("nvarchar(90)");
+
+                    b.Property<float>("Quantidade_Vendida")
+                        .HasMaxLength(90)
+                        .HasColumnType("real");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Vendas", (string)null);
                 });
 #pragma warning restore 612, 618
         }

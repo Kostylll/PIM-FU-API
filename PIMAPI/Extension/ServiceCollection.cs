@@ -25,10 +25,10 @@ namespace PIMAPI.Extension
              
 
             services.AddScoped<ILoginService, LoginService>();
-            services.AddScoped<IColaboratorService, ColaboratorService>();
-            services.AddScoped<IProductionService, ProductionService>();
-            services.AddScoped<ISupplyService, SupplyService>();
-            services.AddScoped<ISalesService, SalesService>();
+            services.AddScoped<IColaboradorService, ColaboradorService>();
+            services.AddScoped<IProdutoService, ProdutoService>();
+            services.AddScoped<IFornecedoresService, FornecedoresService>();
+            services.AddScoped<IVendasService, VendasService>();
             return services;
         }
 
@@ -36,10 +36,10 @@ namespace PIMAPI.Extension
         {
 
             services.AddScoped<ILoginRepository, LoginRepository>();
-            services.AddScoped<IColaboratorRepository, ColaboratorRepository>();
-            services.AddScoped<ISupplyRepository, SupplyRepository>();
-            services.AddScoped<IProductionRepository, ProductionRepository>();
-            services.AddScoped<ISaleRepository, SaleRepository>();
+            services.AddScoped<IColaboradorRepository, ColaboradorRepository>();
+            services.AddScoped<IFornecedoresRepository, FornecedoresRepository>();
+            services.AddScoped<IProductionRepository, ProdutoRepository>();
+            services.AddScoped<IVendasRepository, VendasRepository>();
             return services;
         }
 

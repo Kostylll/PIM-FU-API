@@ -23,7 +23,7 @@ namespace PIMAPI.Application.Services
 
         public async Task<string> GetLogin(LoginResponse loginResponse)
         {
-            var colaborator = _context.Colaborator
+            var colaborator = _context.Colaboradores
                 .FirstOrDefault(x => x.Nome == loginResponse.Nome && x.Senha == loginResponse.Senha);
 
             if (colaborator != null)

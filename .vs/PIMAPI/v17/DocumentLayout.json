@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}|PIMAPI.Application\\PIMAPI.Application.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi.application\\services\\supplyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}|PIMAPI.Application\\PIMAPI.Application.csproj|solutionrelative:pimapi.application\\services\\supplyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|solutionrelative:pimapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi\\controllers\\supplycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|solutionrelative:pimapi\\controllers\\supplycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}|PIMAPI.Application\\PIMAPI.Application.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi.application\\interfaces\\isupplyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}|PIMAPI.Application\\PIMAPI.Application.csproj|solutionrelative:pimapi.application\\interfaces\\isupplyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}|PIMAPI.Application\\PIMAPI.Application.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi.application\\services\\colaboradorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}|PIMAPI.Application\\PIMAPI.Application.csproj|solutionrelative:pimapi.application\\services\\colaboradorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "PIMAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "PIMAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:43:04.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SupplyService.cs",
-              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application\\Services\\SupplyService.cs",
-              "RelativeDocumentMoniker": "PIMAPI.Application\\Services\\SupplyService.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application\\Services\\SupplyService.cs",
-              "RelativeToolTip": "PIMAPI.Application\\Services\\SupplyService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwCgAAAANAAAAAAAAAA==",
+              "Title": "ColaboradorService.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application\\Services\\ColaboradorService.cs",
+              "RelativeDocumentMoniker": "PIMAPI.Application\\Services\\ColaboradorService.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application\\Services\\ColaboradorService.cs",
+              "RelativeToolTip": "PIMAPI.Application\\Services\\ColaboradorService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:30:18.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ISupplyService.cs",
-              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application\\Interfaces\\ISupplyService.cs",
-              "RelativeDocumentMoniker": "PIMAPI.Application\\Interfaces\\ISupplyService.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application\\Interfaces\\ISupplyService.cs",
-              "RelativeToolTip": "PIMAPI.Application\\Interfaces\\ISupplyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:29:43.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SupplyController.cs",
-              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\SupplyController.cs",
-              "RelativeDocumentMoniker": "PIMAPI\\Controllers\\SupplyController.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\SupplyController.cs",
-              "RelativeToolTip": "PIMAPI\\Controllers\\SupplyController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:28:07.212Z",
+              "WhenOpened": "2024-09-19T17:05:24.242Z",
               "EditorCaption": ""
             }
           ]
