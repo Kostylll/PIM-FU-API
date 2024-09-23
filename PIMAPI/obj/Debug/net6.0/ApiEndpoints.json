@@ -43,6 +43,27 @@
   },
   {
     "ContainingType": "PIMAPI.Controllers.ColaboradorController",
+    "Method": "UpdateColaborator",
+    "RelativePath": "api/Colaborador",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "PIMAPI.Application.Abstraction.Domain.Request.ColaboradorRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.ColaboradorController",
     "Method": "GetColaboratorById",
     "RelativePath": "api/Colaborador/{Id}",
     "HttpMethod": "GET",
@@ -100,6 +121,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PIMAPI.Controllers.ProdutoController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Products",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "PIMAPI.Application.Abstraction.Domain.Request.ProdutoRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PIMAPI.Controllers.VendasController",
     "Method": "GetSales",
     "RelativePath": "api/Sales",
@@ -126,6 +168,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PIMAPI.Controllers.VendasController",
+    "Method": "UpdateSales",
+    "RelativePath": "api/Sales",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "PIMAPI.Application.Abstraction.Domain.Request.VendasRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PIMAPI.Controllers.FornecedorController",
     "Method": "GetSupply",
     "RelativePath": "api/Supply",
@@ -143,6 +206,27 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PIMAPI.Application.Abstraction.Domain.Request.FornecedoresRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.FornecedorController",
+    "Method": "UpdateSupply",
+    "RelativePath": "api/Supply",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
       {
         "Name": "request",
         "Type": "PIMAPI.Application.Abstraction.Domain.Request.FornecedoresRequest",

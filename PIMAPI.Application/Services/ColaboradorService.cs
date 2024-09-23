@@ -91,5 +91,30 @@ namespace PIMAPI.Application.Services
             }
             return null;
         }
+
+        public async Task<ColaboradorRequest> UpdateColaborator(string id, ColaboradorRequest request)
+        {
+            var colaborator = await _colaboratorRepository.GetByIdAsync(id);
+
+            if (colaborator != null)
+            {
+                colaborator.Nome = request.Nome;
+                colaborator.Email = request.Email;
+                colaborator.Endereço = request.Endereco;
+                colaborator.Email = request.Email;
+                colaborator.Data_Nascimento = request.Data_Nascimento;
+                colaborator.CPF = request.CPF;
+
+                 _colaboratorRepository.Update(colaborator);
+                await _colaboratorRepository.SaveChangesAsync();
+
+
+            }
+            else
+            {
+                return null;
+            }
+            return request;
+        }
     }
 }

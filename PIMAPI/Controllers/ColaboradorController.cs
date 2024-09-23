@@ -52,5 +52,13 @@ namespace PIMAPI.Controllers
             var result = await _colaboratorService.DeleteColaborator(id);
             return Ok(result);
         }
+
+        [HttpPut]
+
+        public async Task<IActionResult> UpdateColaborator(string id, ColaboradorRequest request)
+        {
+            var result = await _colaboratorService.UpdateColaborator(id, request);
+            return Ok(result);
+        }
     }
 }

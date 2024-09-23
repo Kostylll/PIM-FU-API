@@ -29,5 +29,12 @@ namespace PIMAPI.Controllers
             return Ok(result);
         }
 
+        [HttpPut]
+
+        public async Task<IActionResult> UpdateSales(string id, VendasRequest request)
+        {
+            var result = await _salesService.UpdateSales(id, request);
+            return Ok(result);
+        }
     }
 }

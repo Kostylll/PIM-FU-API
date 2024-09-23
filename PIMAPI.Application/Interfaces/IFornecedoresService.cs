@@ -10,7 +10,7 @@ namespace PIMAPI.Application.Interfaces
     public interface IFornecedoresService
     {
         Task<List<FornecedoresRequest>> GetSupply();
-
+        Task<FornecedoresRequest> UpdateSupply(string id, FornecedoresRequest request);
         Task<int> RegisterSupply(FornecedoresRequest request);
     }
 }

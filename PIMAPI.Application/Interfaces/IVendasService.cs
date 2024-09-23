@@ -10,6 +10,7 @@ namespace PIMAPI.Application.Interfaces
     public interface IVendasService
     {
         Task<List<VendasRequest>> GetSales();
+        Task<VendasRequest> UpdateSales(string id,  VendasRequest request);
         Task<int> RegisterSale(VendasRequest request);
     }
 }

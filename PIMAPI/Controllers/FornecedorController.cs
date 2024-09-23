@@ -30,5 +30,13 @@ namespace PIMAPI.Controllers
             var result = await _supplyService.RegisterSupply(request);
             return Ok(result);
         }
+
+        [HttpPut]
+
+        public async Task<IActionResult> UpdateSupply(string id , FornecedoresRequest request)
+        {
+            var result = await _supplyService.UpdateSupply(id, request);
+            return Ok(result);
+        }
     }
 }

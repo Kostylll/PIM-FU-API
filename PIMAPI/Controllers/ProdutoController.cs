@@ -27,5 +27,12 @@ namespace PIMAPI.Controllers
             var result = await _productionService.RegisterProducts(request);
             return Ok(result);
         }
+        [HttpPut]
+
+        public async Task<IActionResult> UpdateProduct(string id, ProdutoRequest request)
+        {
+            var result = await _productionService.UpdateProducts(id, request);
+            return Ok(result);
+        }
     }
 }

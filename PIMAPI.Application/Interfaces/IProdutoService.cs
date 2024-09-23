@@ -10,7 +10,8 @@ namespace PIMAPI.Application.Interfaces
     public interface IProdutoService
     {
         Task<List<ProdutoRequest>> GetProducts();
-        
+        Task<ProdutoRequest> UpdateProducts(string id , ProdutoRequest request); 
+
         Task<ProdutoRequest> RegisterProducts(ProdutoRequest request);
     }
 }

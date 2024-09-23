@@ -46,5 +46,26 @@ namespace PIMAPI.Application.Services
             await _saleRepository.SaveChangesAsync();
             return 0;
         }
+
+        public async Task<VendasRequest> UpdateSales(string id, VendasRequest request)
+        {
+            var sale = await _saleRepository.GetByIdAsync(id);
+
+            if(sale != null)
+            {
+                sale.Nome_Empresa = request.Nome_Empresa;
+                sale.Local_Vendido = request.Local_Vendido; 
+                sale.Produto_Vendido= request.Produto_Vendido;
+                sale.Quantidade_Vendida = request.Quantidade_Vendida;
+
+                _saleRepository.Update(sale);
+                await _saleRepository.SaveChangesAsync();
+            }
+            else
+            {
+                return null;
+            }
+            return request;
+        }
     }
 }

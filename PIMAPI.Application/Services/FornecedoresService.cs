@@ -48,5 +48,26 @@ namespace PIMAPI.Application.Services
             await _supplyRepository.SaveChangesAsync();
             return 0;
         }
+
+        public async Task<FornecedoresRequest> UpdateSupply(string id, FornecedoresRequest request)
+        {
+            var supply = await _supplyRepository.GetByIdAsync(id);
+
+            if(supply != null)
+            {
+                supply.CNPJ = request.CNPJ;
+                supply.Endereco = request.Endereco;
+                supply.Nome_Empresa = request.Nome_Empresa;
+                supply.Telefone = request.Telefone;
+
+                _supplyRepository.Update(supply);
+                await _supplyRepository.SaveChangesAsync();
+            }
+            else
+            {
+                return null;
+            }
+            return request;
+        }
     }
 }

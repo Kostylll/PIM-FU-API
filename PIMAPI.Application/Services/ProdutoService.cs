@@ -49,5 +49,25 @@ namespace PIMAPI.Application.Services
             return request;
 
         }
+
+        public async Task<ProdutoRequest> UpdateProducts(string id, ProdutoRequest request)
+        {
+           var product = await _productionRepository.GetByIdAsync(id);
+
+            if(product != null)
+            {
+                product.Nome_Empresa = request.Nome_Empresa;
+                product.Nome_Produto = request.Nome_Produto;
+                product.Quantidade = request.Quantidade;
+
+                _productionRepository.Update(product);
+                await _productionRepository.SaveChangesAsync();
+            }
+            else
+            {
+                return null;
+            }
+            return request;
+        }
     }
 }
