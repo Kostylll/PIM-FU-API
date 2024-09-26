@@ -99,11 +99,11 @@ namespace PIMAPI.Application.Services
             if (colaborator != null)
             {
                 colaborator.Nome = request.Nome;
-                colaborator.Email = request.Email;
                 colaborator.Endereço = request.Endereco;
                 colaborator.Email = request.Email;
                 colaborator.Data_Nascimento = request.Data_Nascimento;
                 colaborator.CPF = request.CPF;
+                colaborator.Telefone = request.Telefone;
 
                  _colaboratorRepository.Update(colaborator);
                 await _colaboratorRepository.SaveChangesAsync();
