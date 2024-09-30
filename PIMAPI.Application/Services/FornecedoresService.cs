@@ -19,6 +19,13 @@ namespace PIMAPI.Application.Services
             _supplyRepository = supplyRepository;
         }
 
+        public async Task<int> DeleteSupply(string id)
+        {
+            var supplyDelete = await _supplyRepository.GetByIdAsync(id);
+            _supplyRepository.Delete(supplyDelete);
+            await _supplyRepository.SaveChangesAsync();
+            return 0;
+        }
 
         public async Task<List<FornecedoresRequest>> GetSupply()
         {

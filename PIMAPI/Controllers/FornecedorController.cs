@@ -38,5 +38,12 @@ namespace PIMAPI.Controllers
             var result = await _supplyService.UpdateSupply(id, request);
             return Ok(result);
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteSupply(string id)
+        {
+            var result = await _supplyService.DeleteSupply(id);
+            return Ok(result);
+        }
     }
 }

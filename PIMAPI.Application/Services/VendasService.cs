@@ -18,6 +18,15 @@ namespace PIMAPI.Application.Services
         {
             _saleRepository = saleRepository;
         }
+
+        public async Task<int> DeleteSale(string id)
+        {
+            var saleDelete = await _saleRepository.GetByIdAsync(id);
+            _saleRepository.Delete(saleDelete);
+            await _saleRepository.SaveChangesAsync();
+            return 0;
+        }
+
         public async Task<List<VendasRequest>> GetSales()
         {
             var sales = await _saleRepository.GetAllAsync();

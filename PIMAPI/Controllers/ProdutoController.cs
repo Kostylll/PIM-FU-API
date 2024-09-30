@@ -34,5 +34,13 @@ namespace PIMAPI.Controllers
             var result = await _productionService.UpdateProducts(id, request);
             return Ok(result);
         }
+
+        [HttpDelete]
+
+        public async Task<IActionResult> DeleteProduct(string id)
+        {
+            var result = await _productionService.DeleteProduct(id);
+            return Ok(result);
+        }
     }
 }

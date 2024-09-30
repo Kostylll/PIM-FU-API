@@ -11,6 +11,7 @@ namespace PIMAPI.Application.Interfaces
     {
         Task<List<VendasRequest>> GetSales();
         Task<VendasRequest> UpdateSales(string id,  VendasRequest request);
+        Task<int> DeleteSale(string id);
         Task<int> RegisterSale(VendasRequest request);
     }
 }

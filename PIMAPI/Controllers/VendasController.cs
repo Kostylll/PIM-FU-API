@@ -36,5 +36,12 @@ namespace PIMAPI.Controllers
             var result = await _salesService.UpdateSales(id, request);
             return Ok(result);
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteSale(string id)
+        {
+            var result = await _salesService.DeleteSale(id);
+            return Ok(result);
+        }
     }
 }

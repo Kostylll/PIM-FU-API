@@ -20,6 +20,14 @@ namespace PIMAPI.Application.Services
             _productionRepository = productionRepository;
         }
 
+        public async Task<int> DeleteProduct(string id)
+        {
+            var productDelete = await _productionRepository.GetByIdAsync(id);
+            _productionRepository.Delete(productDelete);
+            await _productionRepository.SaveChangesAsync();
+            return 0;
+        }
+
         public async Task<List<ProdutoRequest>> GetProducts()
         {
             var products = await _productionRepository.GetAllAsync();

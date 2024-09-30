@@ -11,7 +11,7 @@ namespace PIMAPI.Application.Interfaces
     {
         Task<List<ProdutoRequest>> GetProducts();
         Task<ProdutoRequest> UpdateProducts(string id , ProdutoRequest request); 
-
         Task<ProdutoRequest> RegisterProducts(ProdutoRequest request);
+        Task<int> DeleteProduct(string id);
     }
 }

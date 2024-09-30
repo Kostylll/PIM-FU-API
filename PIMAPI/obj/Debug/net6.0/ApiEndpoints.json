@@ -142,6 +142,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PIMAPI.Controllers.ProdutoController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Products",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PIMAPI.Controllers.VendasController",
     "Method": "GetSales",
     "RelativePath": "api/Sales",
@@ -189,6 +205,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PIMAPI.Controllers.VendasController",
+    "Method": "DeleteSale",
+    "RelativePath": "api/Sales",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PIMAPI.Controllers.FornecedorController",
     "Method": "GetSupply",
     "RelativePath": "api/Supply",
@@ -230,6 +262,22 @@
       {
         "Name": "request",
         "Type": "PIMAPI.Application.Abstraction.Domain.Request.FornecedoresRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMAPI.Controllers.FornecedorController",
+    "Method": "DeleteSupply",
+    "RelativePath": "api/Supply",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

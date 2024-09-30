@@ -12,5 +12,6 @@ namespace PIMAPI.Application.Interfaces
         Task<List<FornecedoresRequest>> GetSupply();
         Task<FornecedoresRequest> UpdateSupply(string id, FornecedoresRequest request);
         Task<int> RegisterSupply(FornecedoresRequest request);
+        Task<int> DeleteSupply(string id);
     }
 }
