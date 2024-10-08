@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PIMAPI.Application.Form
-build_property.ProjectDir = C:\Users\Cliente\source\repos\PIM-FU-API\WinFormsApp1\
+build_property.ProjectDir = C:\Users\Cliente\source\repos\PIMAPI\WinFormsApp1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

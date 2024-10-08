@@ -1,17 +1,7 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\Users\\Cliente\\source\\repos\\PIM-FU-API\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\cliente\\source\\repos\\pim-fu-api\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
-=======
   "WorkspaceRootPath": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\",
   "Documents": [],
->>>>>>> 61ff272ead43dbe00c25f95c068e5894a0c5a3b2
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -19,11 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 2,
-=======
           "SelectedChildIndex": -1,
->>>>>>> 61ff272ead43dbe00c25f95c068e5894a0c5a3b2
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,21 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-<<<<<<< HEAD
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIM-FU-API\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIM-FU-API\\WinFormsApp1\\Form1.cs [Projeto]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T16:16:54.436Z",
-              "EditorCaption": " [Projeto]"
-=======
->>>>>>> 61ff272ead43dbe00c25f95c068e5894a0c5a3b2
             }
           ]
         }

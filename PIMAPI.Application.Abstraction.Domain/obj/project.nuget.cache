@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7+GIAiy4i18=",
+  "dgSpecHash": "ilZPdSHeAOU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cliente\\source\\repos\\PIM-FU-API\\PIMAPI.Application.Abstraction.Domain\\PIMAPI.Application.Abstraction.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application.Abstraction.Domain\\PIMAPI.Application.Abstraction.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cliente\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Cliente\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
