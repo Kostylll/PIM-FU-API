@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi\\controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|solutionrelative:pimapi\\controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB2ECBFB-A31A-431A-93E0-B6C6DA84424A}|PIMAPI.Application.Forms\\PIMAPI.Application.Forms.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi.application.forms\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CB2ECBFB-A31A-431A-93E0-B6C6DA84424A}|PIMAPI.Application.Forms\\PIMAPI.Application.Forms.csproj|solutionrelative:pimapi.application.forms\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|solutionrelative:pimapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB2ECBFB-A31A-431A-93E0-B6C6DA84424A}|PIMAPI.Application.Forms\\PIMAPI.Application.Forms.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi.application.forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CB2ECBFB-A31A-431A-93E0-B6C6DA84424A}|PIMAPI.Application.Forms\\PIMAPI.Application.Forms.csproj|solutionrelative:pimapi.application.forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|solutionrelative:pimapi\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi\\controllers\\colaboradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98E77CCC-E458-49EA-93CA-6999FCF7C897}|PIMAPI\\PIMAPI.csproj|solutionrelative:pimapi\\controllers\\colaboradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB2ECBFB-A31A-431A-93E0-B6C6DA84424A}|PIMAPI.Application.Forms\\PIMAPI.Application.Forms.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\pimapi.application.forms\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB2ECBFB-A31A-431A-93E0-B6C6DA84424A}|PIMAPI.Application.Forms\\PIMAPI.Application.Forms.csproj|solutionrelative:pimapi.application.forms\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,55 +34,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VendasController.cs",
-              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\VendasController.cs",
-              "RelativeDocumentMoniker": "PIMAPI\\Controllers\\VendasController.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\VendasController.cs",
-              "RelativeToolTip": "PIMAPI\\Controllers\\VendasController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application.Forms\\Form2.cs",
+              "RelativeDocumentMoniker": "PIMAPI.Application.Forms\\Form2.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application.Forms\\Form2.cs",
+              "RelativeToolTip": "PIMAPI.Application.Forms\\Form2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T22:55:04.672Z",
+              "WhenOpened": "2024-10-08T14:31:46.293Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application.Forms\\Form2.cs",
+              "RelativeDocumentMoniker": "PIMAPI.Application.Forms\\Form2.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application.Forms\\Form2.cs [Design]",
+              "RelativeToolTip": "PIMAPI.Application.Forms\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:26:01.965Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "PIMAPI\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "PIMAPI\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCoAAAAeAAAAAAAAAA==",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application.Forms\\Form1.cs",
+              "RelativeDocumentMoniker": "PIMAPI.Application.Forms\\Form1.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application.Forms\\Form1.cs [Design]",
+              "RelativeToolTip": "PIMAPI.Application.Forms\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T22:54:47.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FornecedorController.cs",
-              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\FornecedorController.cs",
-              "RelativeDocumentMoniker": "PIMAPI\\Controllers\\FornecedorController.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\FornecedorController.cs",
-              "RelativeToolTip": "PIMAPI\\Controllers\\FornecedorController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T22:54:03.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ColaboradorController.cs",
-              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\ColaboradorController.cs",
-              "RelativeDocumentMoniker": "PIMAPI\\Controllers\\ColaboradorController.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI\\Controllers\\ColaboradorController.cs",
-              "RelativeToolTip": "PIMAPI\\Controllers\\ColaboradorController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T22:54:00.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T14:19:55.196Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
