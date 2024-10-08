@@ -1,0 +1,6 @@
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Forms\obj\Debug\PIMAPI.Application.Forms.csproj.AssemblyReference.cache
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Forms\obj\Debug\PIMAPI.Application.Forms.Form1.resources
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Forms\obj\Debug\PIMAPI.Application.Forms.Form2.resources
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Forms\obj\Debug\PIMAPI.Application.Forms.Properties.Resources.resources
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Forms\obj\Debug\PIMAPI.Application.Forms.csproj.GenerateResource.cache
+C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Forms\obj\Debug\PIMAPI.Application.Forms.csproj.CoreCompileInputs.cache
