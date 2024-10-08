@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PIMAPI.Application.Abstraction.Domain
-build_property.ProjectDir = C:\Users\Cliente\source\repos\PIMAPI\PIMAPI.Application.Abstraction.Domain\
+build_property.ProjectDir = C:\Users\Cliente\source\repos\PIM-FU-API\PIMAPI.Application.Abstraction.Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

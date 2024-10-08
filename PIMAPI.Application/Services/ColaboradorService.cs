@@ -23,6 +23,10 @@ namespace PIMAPI.Application.Services
             _colaboratorRepository = colaboratorRepository;
         }
 
+        public ColaboradorService()
+        {
+        }
+
         public async Task<int> RegisterColaborator(ColaboradorRequest request)
         {
 

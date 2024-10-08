@@ -2899,11 +2899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application.Abstraction.Domain\\PIMAPI.Application.Abstraction.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Cliente\\source\\repos\\PIM-FU-API\\PIMAPI.Application.Abstraction.Domain\\PIMAPI.Application.Abstraction.Domain.csproj",
       "projectName": "PIMAPI.Application.Abstraction.Domain",
-      "projectPath": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application.Abstraction.Domain\\PIMAPI.Application.Abstraction.Domain.csproj",
+      "projectPath": "C:\\Users\\Cliente\\source\\repos\\PIM-FU-API\\PIMAPI.Application.Abstraction.Domain\\PIMAPI.Application.Abstraction.Domain.csproj",
       "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\PIMAPI.Application.Abstraction.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Cliente\\source\\repos\\PIM-FU-API\\PIMAPI.Application.Abstraction.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

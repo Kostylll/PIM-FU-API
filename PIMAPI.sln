@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PIMAPI.Application.Infra.Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PIMAPI.Application", "PIMAPI.Application\PIMAPI.Application.csproj", "{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PIMAPI.Application.Forms", "PIMAPI.Application.Forms\PIMAPI.Application.Forms.csproj", "{CB2ECBFB-A31A-431A-93E0-B6C6DA84424A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PIMAPI.Application.Form", "WinFormsApp1\PIMAPI.Application.Form.csproj", "{1ED63F21-449B-427D-9307-E195B1BE31A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CB2ECBFB-A31A-431A-93E0-B6C6DA84424A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CB2ECBFB-A31A-431A-93E0-B6C6DA84424A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CB2ECBFB-A31A-431A-93E0-B6C6DA84424A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CB2ECBFB-A31A-431A-93E0-B6C6DA84424A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED63F21-449B-427D-9307-E195B1BE31A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED63F21-449B-427D-9307-E195B1BE31A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED63F21-449B-427D-9307-E195B1BE31A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED63F21-449B-427D-9307-E195B1BE31A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
