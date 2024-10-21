@@ -1,5 +1,6 @@
 using Microsoft.Data.SqlClient;
 using PIMAPI.Application.Abstraction.Domain.Request;
+using PIMAPI.Application.Form;
 using PIMAPI.Application.Interfaces;
 using PIMAPI.Application.Services;
 using System.ComponentModel;
@@ -27,7 +28,7 @@ namespace WinFormsApp1
         }
 
 
-        private async void LoadDataToGridView()
+        public async void LoadDataToGridView()
         {
 
             var colaboradores = await GetColaboradoresAsync();
@@ -40,6 +41,7 @@ namespace WinFormsApp1
                 c.Email,
                 c.CPF,
                 c.Telefone,
+                c.Endereco,
                 Data_Nascimento = c.Data_Nascimento,
             }).ToList();
         }
@@ -69,12 +71,6 @@ namespace WinFormsApp1
                 MessageBox.Show("Por favor, selecione um colaborador para excluir.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
-
-
-
-
-
-
 
 
 
@@ -158,6 +154,28 @@ namespace WinFormsApp1
         private void pictureBox6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+            if (this.Controls.OfType<UserControl1>().Any())
+            {
+                return;
+            }
+
+            UserControl1 userControl1 = new UserControl1();
+
+
+
+            this.Controls.Add(userControl1);
+
+            int x = (this.Width - userControl1.Width) / 2;
+            int y = (this.Height - userControl1.Height) / 2;
+            userControl1.Location = new Point(x, y);
+
+            userControl1.BringToFront();
+            userControl1.Show();
         }
     }
 }

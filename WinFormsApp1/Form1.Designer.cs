@@ -106,6 +106,7 @@
             // 
             // pictureBox5
             // 
+            pictureBox5.Cursor = Cursors.Hand;
             pictureBox5.Image = PIMAPI.Application.Form.Properties.Resources.salvar;
             pictureBox5.Location = new Point(41, 94);
             pictureBox5.Name = "pictureBox5";
@@ -113,6 +114,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 3;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // pictureBox6
             // 
