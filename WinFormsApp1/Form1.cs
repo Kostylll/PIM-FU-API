@@ -28,15 +28,14 @@ namespace WinFormsApp1
         }
 
 
-        public async void LoadDataToGridView()
+        private async Task LoadDataToGridView()
         {
+            var colaboradores = await GetColaboradoresAsync(); 
 
-            var colaboradores = await GetColaboradoresAsync();
-
-
+          
             dataGridView1.DataSource = colaboradores.Select(c => new
             {
-                c.Id,
+             
                 c.Nome,
                 c.Email,
                 c.CPF,
@@ -52,7 +51,7 @@ namespace WinFormsApp1
             {
                 int rowIndex = dataGridView1.SelectedRows[0].Index;
 
-                string id = dataGridView1.Rows[rowIndex].Cells["ID"].Value.ToString();
+                string id = dataGridView1.Rows[rowIndex].Cells["CPF"].Value.ToString();
 
                 DialogResult result = MessageBox.Show("Tem certeza que deseja deletar este colaborador?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
@@ -72,20 +71,15 @@ namespace WinFormsApp1
             }
         }
 
-
-
-
-
-
-        public async Task<bool> RemoverColaborador(string id)
+        public async Task<bool> RemoverColaborador(string cpf)
         {
-            if (string.IsNullOrEmpty(id))
+            if (string.IsNullOrEmpty(cpf))
             {
-                throw new ArgumentNullException(nameof(id), "Id cannot be null or empty.");
+                throw new ArgumentNullException(nameof(cpf), "Id cannot be null or empty.");
             }
 
             string connectionString = "Data Source=localhost;Database=PIMAPIdb;Trusted_Connection=True;Trust Server Certificate=true;";
-            string deleteQuery = "DELETE FROM Colaboradores WHERE ID = @id";
+            string deleteQuery = "DELETE FROM Colaboradores WHERE CPF = @CPF";
 
             bool success = false;
 
@@ -97,23 +91,25 @@ namespace WinFormsApp1
                 {
                     using (SqlCommand deleteCommand = new SqlCommand(deleteQuery, connection))
                     {
-                        deleteCommand.Parameters.AddWithValue("@Id", id);
+                        deleteCommand.Parameters.AddWithValue("@CPF", cpf);
                         int rowsAffected = await deleteCommand.ExecuteNonQueryAsync();
                         success = rowsAffected > 0;
                     }
                 }
                 catch (SqlException ex)
                 {
-
                     Console.WriteLine($"Error removing collaborator: {ex.Message}");
                     throw;
                 }
             }
 
+            if (success)
+            {
+                await LoadDataToGridView(); 
+            }
+
             return success;
         }
-
-
 
         public async Task<List<ColaboradorRequest>> GetColaboradoresAsync()
         {
@@ -176,6 +172,45 @@ namespace WinFormsApp1
 
             userControl1.BringToFront();
             userControl1.Show();
+            userControl1.EsconderBotao();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+            if (this.Controls.OfType<UserControl1>().Any())
+            {
+                return;
+            }
+
+
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                UserControl1 userControl1 = new UserControl1();
+                this.Controls.Add(userControl1);
+
+                int x = (this.Width - userControl1.Width) / 2;
+                int y = (this.Height - userControl1.Height) / 2;
+
+                userControl1.Location = new Point(x, y);
+                userControl1.Show();
+                userControl1.BringToFront();
+                DataGridViewRow linhaSelecionada = dataGridView1.SelectedRows[0];
+
+                string nome = linhaSelecionada.Cells["Nome"].Value.ToString();
+                string email = linhaSelecionada.Cells["Email"].Value.ToString();
+                string cpf = linhaSelecionada.Cells["CPF"].Value.ToString();
+                string endereco = linhaSelecionada.Cells["Endereco"].Value.ToString();
+                string telefone = linhaSelecionada.Cells["Telefone"].Value.ToString();
+                string data_Nascimento = linhaSelecionada.Cells["Data_Nascimento"].Value.ToString();
+
+                userControl1.SetValues(nome, email, cpf, endereco, telefone, data_Nascimento);
+                userControl1.LockarCpf();
+            }
+            else
+            {
+                MessageBox.Show("Selecione uma linha para editar.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }

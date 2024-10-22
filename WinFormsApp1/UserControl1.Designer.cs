@@ -43,6 +43,8 @@
             pictureBox7 = new PictureBox();
             textBox6 = new TextBox();
             pictureBox8 = new PictureBox();
+            pictureBox9 = new PictureBox();
+            pictureBox10 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -51,6 +53,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -136,6 +140,7 @@
             textBox3.PlaceholderText = "000.000.000-00";
             textBox3.Size = new Size(121, 23);
             textBox3.TabIndex = 8;
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // textBox4
             // 
@@ -185,11 +190,36 @@
             pictureBox8.TabStop = false;
             pictureBox8.Click += pictureBox8_Click;
             // 
+            // pictureBox9
+            // 
+            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new Point(775, 3);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(38, 22);
+            pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox9.TabIndex = 14;
+            pictureBox9.TabStop = false;
+            pictureBox9.Click += pictureBox9_Click;
+            // 
+            // pictureBox10
+            // 
+            pictureBox10.Cursor = Cursors.Hand;
+            pictureBox10.Image = Properties.Resources.editar;
+            pictureBox10.Location = new Point(613, 216);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(100, 50);
+            pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox10.TabIndex = 15;
+            pictureBox10.TabStop = false;
+            pictureBox10.Click += pictureBox10_Click;
+            // 
             // UserControl1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(52, 78, 65);
+            Controls.Add(pictureBox10);
+            Controls.Add(pictureBox9);
             Controls.Add(pictureBox8);
             Controls.Add(textBox6);
             Controls.Add(pictureBox7);
@@ -214,6 +244,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -234,5 +266,7 @@
         private PictureBox pictureBox7;
         private TextBox textBox6;
         private PictureBox pictureBox8;
+        private PictureBox pictureBox9;
+        private PictureBox pictureBox10;
     }
 }

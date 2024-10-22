@@ -33,7 +33,6 @@
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             panel1 = new Panel();
-            pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
@@ -42,7 +41,6 @@
             textBox1 = new TextBox();
             dataGridView1 = new DataGridView();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -53,24 +51,13 @@
             // 
             // panel1
             // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             panel1.BackColor = Color.FromArgb(52, 78, 65);
-            panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(pictureBox1);
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(1349, 69);
             panel1.TabIndex = 0;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = PIMAPI.Application.Form.Properties.Resources.dados;
-            pictureBox2.InitialImage = PIMAPI.Application.Form.Properties.Resources.dados;
-            pictureBox2.Location = new Point(1280, 12);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(58, 49);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 1;
-            pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -96,6 +83,7 @@
             // 
             // pictureBox4
             // 
+            pictureBox4.Cursor = Cursors.Hand;
             pictureBox4.Image = PIMAPI.Application.Form.Properties.Resources.editar;
             pictureBox4.Location = new Point(174, 94);
             pictureBox4.Name = "pictureBox4";
@@ -103,6 +91,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 2;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox5
             // 
@@ -199,7 +188,6 @@
             Text = "Form1";
             Load += Form1_Load;
             panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
@@ -213,7 +201,6 @@
         #endregion
 
         private Panel panel1;
-        private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;

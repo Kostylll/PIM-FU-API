@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\winformsapp1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|solutionrelative:winformsapp1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|C:\\Users\\Cliente\\source\\repos\\PIMAPI\\winformsapp1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|solutionrelative:winformsapp1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|C:\\Users\\Cliente\\source\\repos\\PIMAPI\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\winformsapp1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|solutionrelative:winformsapp1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|c:\\users\\cliente\\source\\repos\\pimapi\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED63F21-449B-427D-9307-E195B1BE31A0}|WinFormsApp1\\PIMAPI.Application.Form.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\Form1.cs [Projeto]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\Form1.cs [Projeto]*",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T16:49:53.891Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Bookmark",
@@ -50,40 +51,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserControl1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\UserControl1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\UserControl1.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\UserControl1.cs [Projeto]",
-              "RelativeToolTip": "WinFormsApp1\\UserControl1.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\UserControl1.cs [Projeto]*",
+              "RelativeToolTip": "WinFormsApp1\\UserControl1.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T20:26:27.304Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserControl1.cs",
               "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\UserControl1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\UserControl1.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\UserControl1.cs",
-              "RelativeToolTip": "WinFormsApp1\\UserControl1.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAnwEsAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\UserControl1.cs*",
+              "RelativeToolTip": "WinFormsApp1\\UserControl1.cs*",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAqwJ4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T20:25:42.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\Form1.cs",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAuwJMAAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\PIMAPI\\WinFormsApp1\\Form1.cs*",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T16:50:00.577Z"
+              "WhenOpened": "2024-10-08T16:50:00.577Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -24,7 +24,6 @@ namespace PIMAPI.Application.Form
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-
             UserControl1 userControl1 = new UserControl1();
             this.Controls.Add(userControl1);
 
@@ -32,9 +31,8 @@ namespace PIMAPI.Application.Form
             string email = textBox2.Text;
             string cpf = FormatarCPF(textBox3.Text);
             string telefone = FormatarCelular(textBox4.Text);
-            string endereço = textBox5.Text;
+            string endereco = textBox5.Text;
             string data_Nascimento = textBox6.Text;
-
 
             var dadosForm = new ColaboradorRequest
             {
@@ -42,15 +40,42 @@ namespace PIMAPI.Application.Form
                 Email = email,
                 CPF = cpf,
                 Data_Nascimento = data_Nascimento,
-                Endereco = endereço,
+                Endereco = endereco,
                 Telefone = telefone,
                 Senha = cpf
             };
 
             AdicionarColaborador(dadosForm);
 
+            DialogResult result = MessageBox.Show("Colaborador adicionado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+         
+            if (result == DialogResult.OK)
+            {
+                this.Parent.Controls.Remove(this); 
+            }
+        }
 
-            this.Parent.Controls.Remove(this);
+
+        public void SetValues(string nome, string email, string cpf, string endereco, string telefone, string data_Nascimento)
+        {
+            textBox1.Text = nome;
+            textBox2.Text = email;
+            textBox3.Text = cpf;
+            textBox4.Text = telefone;
+            textBox5.Text = endereco;
+            textBox6.Text = data_Nascimento;
+
+        }
+
+        public void LockarCpf()
+        {
+            textBox3.Enabled = false;
+        }
+
+        public void EsconderBotao()
+        {
+            pictureBox10.Hide();
+
         }
 
         public string FormatarCPF(string cpf)
@@ -125,6 +150,48 @@ namespace PIMAPI.Application.Form
             }
         }
 
+
+        public async Task<ColaboradorRequest> AtualizarColaborador(ColaboradorRequest response)
+        {
+            var cnn = "Data Source=localhost;Database=PIMAPIdb;Trusted_Connection=True;Trust Server Certificate=true;";
+            using (SqlConnection connection = new SqlConnection(cnn))
+            {
+                await connection.OpenAsync();
+
+                string sql = "UPDATE Colaboradores SET Nome = @Nome, Data_Nascimento = @Data_Nascimento, Email = @Email, Telefone = @Telefone, Endereço = @Endereço WHERE CPF = @CPF";
+                try
+                {
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        command.Parameters.AddWithValue("@Nome", response.Nome);
+                        command.Parameters.AddWithValue("@Data_Nascimento", response.Data_Nascimento);
+                        command.Parameters.AddWithValue("@Email", response.Email);
+                        command.Parameters.AddWithValue("@Endereço", response.Endereco); 
+                        command.Parameters.AddWithValue("@CPF", response.CPF);
+                        command.Parameters.AddWithValue("@Telefone", response.Telefone);
+
+                        int rowsAffected = await command.ExecuteNonQueryAsync();
+
+                        if (rowsAffected > 0)
+                        {
+                            return response; 
+                        }
+                        else
+                        {
+                            Console.WriteLine("Nenhum colaborador foi encontrado com o CPF fornecido.");
+                            return null; 
+                        }
+                    }
+                }
+                catch (SqlException ex)
+                {
+                    Console.WriteLine($"Erro ao Atualizar: {ex.Message}");
+                    throw;
+                }
+            }
+        }
+
+
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
@@ -133,6 +200,51 @@ namespace PIMAPI.Application.Form
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            this.Parent.Controls.Remove(this);
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("Tem certeza que deseja editar?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (resultado == DialogResult.Yes)
+            {
+                UserControl1 userControl1 = new UserControl1();
+                this.Controls.Add(userControl1);
+
+
+                string nome = textBox1.Text;
+                string email = textBox2.Text;                                
+                string cpf = textBox3.Text;
+                string telefone = FormatarCelular(textBox4.Text);
+                string endereco = textBox5.Text;
+                string data_Nascimento = textBox6.Text;
+
+                var dadosForm = new ColaboradorRequest
+                {
+                    Nome = nome,
+                    Email = email,
+                    CPF = cpf,
+                    Data_Nascimento = data_Nascimento,
+                    Endereco = endereco,
+                    Telefone = telefone,
+                };
+
+                AtualizarColaborador(dadosForm);
+
+        
+
+                this.Parent.Controls.Remove(this);
+            }
         }
     }
 }
