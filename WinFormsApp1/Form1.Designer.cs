@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
@@ -38,7 +39,6 @@
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
-            textBox1 = new TextBox();
             dataGridView1 = new DataGridView();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -107,22 +107,15 @@
             // 
             // pictureBox6
             // 
-            pictureBox6.Image = PIMAPI.Application.Form.Properties.Resources.lupa;
-            pictureBox6.Location = new Point(1240, 105);
+            pictureBox6.Cursor = Cursors.Hand;
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(1231, 103);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(17, 23);
+            pictureBox6.Size = new Size(35, 36);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 4;
             pictureBox6.TabStop = false;
             pictureBox6.Click += pictureBox6_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(983, 105);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Buscar...";
-            textBox1.Size = new Size(251, 23);
-            textBox1.TabIndex = 5;
             // 
             // dataGridView1
             // 
@@ -178,7 +171,6 @@
             AutoSize = true;
             ClientSize = new Size(1350, 729);
             Controls.Add(dataGridView1);
-            Controls.Add(textBox1);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
@@ -195,7 +187,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -206,7 +197,6 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
-        private TextBox textBox1;
-        private DataGridView dataGridView1;
+        public DataGridView dataGridView1;
     }
 }

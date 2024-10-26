@@ -149,7 +149,7 @@ namespace WinFormsApp1
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-
+            LoadDataToGridView();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
