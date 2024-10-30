@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PIMAPI.Application.Form")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7dd450c9ae51beef6d7b4bf3aa389ae6f94e73e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66b83b574e06ca2790355e6e996110010c49743e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PIMAPI.Application.Form")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PIMAPI.Application.Form")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

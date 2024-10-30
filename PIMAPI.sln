@@ -11,11 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PIMAPI.Application.Infra.Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PIMAPI.Application", "PIMAPI.Application\PIMAPI.Application.csproj", "{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}"
 EndProject
-<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PIMAPI.Application.Form", "WinFormsApp1\PIMAPI.Application.Form.csproj", "{1ED63F21-449B-427D-9307-E195B1BE31A0}"
 EndProject
-=======
->>>>>>> 61ff272ead43dbe00c25f95c068e5894a0c5a3b2
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PIMAPI.Application.Tests", "PIMAPI.Application.Tests\PIMAPI.Application.Tests.csproj", "{083719C0-7DBA-4A66-B1F5-B6859698B117}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,13 +37,14 @@ Global
 		{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCAF11A5-F3CE-4092-A43D-F6D400C9C705}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{1ED63F21-449B-427D-9307-E195B1BE31A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1ED63F21-449B-427D-9307-E195B1BE31A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ED63F21-449B-427D-9307-E195B1BE31A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ED63F21-449B-427D-9307-E195B1BE31A0}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> 61ff272ead43dbe00c25f95c068e5894a0c5a3b2
+		{083719C0-7DBA-4A66-B1F5-B6859698B117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083719C0-7DBA-4A66-B1F5-B6859698B117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083719C0-7DBA-4A66-B1F5-B6859698B117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083719C0-7DBA-4A66-B1F5-B6859698B117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
